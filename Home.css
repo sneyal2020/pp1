@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(4, 5, 5);
+    margin: 20px;
+    padding: 20px;
+    color:black;
+}
+
+ h3,h2{
+    color:white;
+    font-family:  Helvetica;
+    /* border-radius: 20px;
+    box-sizing: 25px;
+    border: 5ch; */
+    width: auto;
+    background-color: teal;
+
+
+}
+
+p{
+    color: white;
+    font-family: sans-serif;
+
+}
+
+#aside1,#aside3,#aside5,#aside7{
+    width: 70%;
+    float: left;
+    font-size: 16px;
+
+}
+
+#aside2,#aside4,#aside6,#aside8{
+
+width: 70%;
+float: right;
+font-size: 16px;
+}
+
+
+
+
+
+
+section {
+    opacity: 0;
+    animation: ani 1s ease-in-out forwards;
+    
+}
+
+@keyframes ani {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section{
+    border-radius: 45px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+article{
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+
+
